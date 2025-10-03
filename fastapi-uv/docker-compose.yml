@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  investor-agent:
+    build: .
+    ports:
+      - "8001:8001"  # API portu
+      - "8501:8501"  # Streamlit portu
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - API_HOST=0.0.0.0
+      - API_PORT=8001
+      - STREAMLIT_PORT=8501
+    volumes:
+      - ./reports:/app/reports  # Raporları host'ta sakla
+    restart: unless-stopped
+
