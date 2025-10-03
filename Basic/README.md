@@ -1,7 +1,3 @@
-# 💰 Investment Report Generator - Upsonic Implementation
-
-This project implements [Agno's Investment Report Generator use case](https://docs.agno.com/examples/use-cases/workflows/investment-report-generator) using the [Upsonic agent framework](https://github.com/Upsonic/Upsonic).
-
 ## 🎯 Features
 
 - **Three-Stage Analysis System**: Comprehensive stock analysis, investment ranking, and portfolio allocation
@@ -159,4 +155,5 @@ For questions:
 - Open GitHub Issues
 - Join the Discord community
 - Check the documentation
+
 
